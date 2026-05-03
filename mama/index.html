@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Día Mamá ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1> Feliz Día Mamá 💖</h1>
+  <p class="mensaje">Gracias por tu amor infinito 💞</p>
+</header>
+
+<!-- FOTO PRINCIPAL -->
+<section class="principal">
+  <img src="img/WhatsApp Image 2026-05-03 at 9.19.56 AM.jpeg">
+</section>
+
+<!-- GALERIA -->
+<section class="galeria">
+  <img src="img/WhatsApp Image 2026-05-03 at 9.19.54 AM.jpeg">
+  <img src="img/WhatsApp Image 2026-05-03 at 9.19.55 AM (1).jpeg">
+  <img src="img/WhatsApp Image 2026-05-03 at 9.19.55 AM.jpeg">
+  <img src="img/WhatsApp Image 2026-05-03 at 9.19.56 AM.jpeg">
+</section>
+
+<!-- CARTA -->
+<div class="carta">
+  <h2>💌 Carta para Mamá</h2>
+  <p id="textoCarta">Mamá ❤️
+Vivir contigo es una mezcla hermosa de risas, peleas y momentos que nunca cambiaría por nada. Aunque a veces discutamos, siempre estamos juntas en todo, y eso es lo que más valoro.
+
+Gracias por tu paciencia, por tu cariño y por estar siempre a mi lado. No siempre lo digo, pero te quiero muchísimo y eres una de las personas más importantes en mi vida. 💕
+  <button onclick="cambiarMensaje()">Ver otro mensaje</button>
+</div>
+
+<!-- VIDEO AL FINAL -->
+<section class="video">
+  <video controls>
+    <source src="video/WhatsApp Video 2026-05-03 at 10.35.59 AM.mp4" type="video/mp4">
+  </video>
+</section>
+<div id="visor" class="visor">
+  <img id="imgGrande">
+</div>
+<audio id="musica" autoplay muted loop>
+  <source src="musica/Como Te Pago __letra ( Lenier  ).mp3" type="audio/mp3">
+</audio>
+
+<button onclick="toggleMusica()">🎵 Música</button>
+
+<canvas id="lluvia"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
